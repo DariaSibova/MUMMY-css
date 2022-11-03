@@ -42,3 +42,42 @@ color: #FFF;
   border-top:5px solid #849ca8; 
   border-bottom:5px solid #849ca8; 
 }
+
+.band:before{
+  content: "";
+  width: 103%;
+  height: 100%;
+  position: absolute;
+  background-color: #f2f7f3;
+  border-top: 5px solid #849ca8;
+  border-bottom: 5px solid #849ca8;
+  top: 93%;
+  transform: rotate(-2deg);
+  left: -23px;
+}
+
+.band:after{
+  content: "";
+  width: 103%;
+  height: 100%;
+  position: absolute;
+  background-color: #f2f7f3;
+  border-top: 5px solid #849ca8;
+  border-bottom: 5px solid #849ca8;
+  top: 194%;
+  transform: rotate(0deg);
+  left: -23px;
+}
+
+
+.band-two{
+  width: 111%;
+  height: 20%;
+  position: absolute;
+  top: 58%;
+  left: 0;
+  background-color: #f2f7f3;
+  border-top: 5px solid #849ca8;
+  border-bottom: 5px solid #849ca8;
+  transform: rotate(-2deg);
+}
