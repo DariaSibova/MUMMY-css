@@ -107,3 +107,15 @@ color: #FFF;
   transform: rotate(7deg);
   left: -23px;
 }
+
+.eyes-base{
+  width: 90%;
+  height: 240px;
+  position: absolute;
+  z-index: 2;
+  top: calc(40% - 120px);
+  left: calc(50% - 45%);
+  background-color: #393834;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  overflow: hidden;
+}
