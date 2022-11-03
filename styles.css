@@ -81,3 +81,29 @@ color: #FFF;
   border-bottom: 5px solid #849ca8;
   transform: rotate(-2deg);
 }
+
+.band-two:before{
+  content: "";
+  width: 103%;
+  height: 100%;
+  position: absolute;
+  background-color: #f2f7f3;
+  border-top: 5px solid #849ca8;
+  border-bottom: 5px solid #849ca8;
+  top: 93%;
+  transform: rotate(4deg);
+  left: -23px;
+}
+
+.band-two:after{
+  content: "";
+  width: 103%;
+  height: 100%;
+  position: absolute;
+  background-color: #f2f7f3;
+  border-top: 5px solid #849ca8;
+  border-bottom: 5px solid #849ca8;
+  top: 194%;
+  transform: rotate(7deg);
+  left: -23px;
+}
