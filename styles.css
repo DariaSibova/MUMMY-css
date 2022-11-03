@@ -139,3 +139,36 @@ color: #FFF;
   background-color: #000;
   border-radius: 50%;
 }
+
+.eyes-left{
+  content: "";
+  left: calc(39% - 100px);
+}
+.eyes-right{
+  content: "";
+  left: calc(59% - 100px)
+}
+.mouth{
+  width: 40%;
+  height: 150px;
+  position: absolute;
+  z-index: 2;
+  bottom: calc(18% - 100px);
+  left: calc(50% - 20%);
+  background-color: #393834;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  overflow: hidden;
+}
+
+
+.mouth:before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  border-top: 70px solid #FFF;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
